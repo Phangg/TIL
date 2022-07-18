@@ -408,7 +408,7 @@
 
 ---
 
-- 암시적 형 변환 **implict**
+- 암시적 형 변환 - **implict**
   
   - 파이썬이 내부적으로, 자동, 사용자 의도 X
   - `bool` `Numeric type (int, float)`
@@ -418,7 +418,7 @@
   print(3 + 5.0) # 8.0 -> int와 float의 덧셈을 float로 자동 변경
   ```
 
-- 명시적 형 변환 **explicit**
+- 명시적 형 변환 - **explicit**
   
   - 개발자가, 특정 함수를 활용, 의도적
   - `str, float` → `int` (형식에 맞는 문자열만 가능)
