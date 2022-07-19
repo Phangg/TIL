@@ -418,6 +418,8 @@
   dict_c['phang'] = 90
   list_c = list(dict_c.keys())
   print(list_c) # ['lee', 'kim', 'jun']
+  list_d = list(dict_c.items())
+  print(list_d) # [('lee', 85), ('kim', 80), ('jun', 100)]
   ```
 
 ---
