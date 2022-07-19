@@ -411,7 +411,7 @@
   print(dict_a) # {'a':'apple','b':'banana','list':[1,2,3]}
   print(dict_a['list']) # [1,2,3]
   
-  dict_b = dict(a:'apple',b:'banana',list:[1,2,3])
+  dict_b = dict(a='apple',b='banana',list=[1,2,3])
   print(dict_b) # {'a':'apple','b':'banana','list':[1,2,3]}
   
   dict_c = {'lee':85, 'kim':80, 'jun':100}
