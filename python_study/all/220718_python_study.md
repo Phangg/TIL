@@ -88,6 +88,24 @@
   - `int` - 정수 자료형
     
     - 여러 진수로 표현 가능 `2진수(binary)` `8진수(octal)` `16진수(hexadecimal)`
+    
+    ```jsx
+    binary_number = 0b10
+    octal_number = 0o10
+    decimal_number = 10
+    hexadecimal_number = 0x10
+    print(f"""2진수 : {binary_number}
+    8진수 : {octal_number}
+    10진수 : {decimal_number}
+    16진수 : {hexadecimal_number}
+    """)
+    '''
+    2진수 : 2
+    8진수 : 8
+    10진수 : 10
+    16진수 : 16
+    '''
+    ```
   
   - `float` - 실수 자료형
     
